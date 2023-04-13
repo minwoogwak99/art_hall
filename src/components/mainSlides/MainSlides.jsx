@@ -9,6 +9,7 @@ function MainSlides(props) {
         <div className="info title">{props.content.title}</div>
         <div className="info period">{props.content.period}</div>
       </div>
+      <a className="detail">자세히보기</a>
     </div>
   );
 }

@@ -16,24 +16,16 @@
     margin-right: 20px;
 }
 
-.buttons {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
 .embla__prev {
-    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
 }
 
 .embla__next {
-    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
 }
 
 button {

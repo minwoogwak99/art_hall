@@ -43,3 +43,7 @@
 .period {
     font-size: 33px;
 }
+
+.detail:hover {
+    border: 2px solid blue;
+}
