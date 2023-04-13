@@ -44,6 +44,16 @@
     font-size: 33px;
 }
 
+.detail {
+    margin-top: 30px;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: white;
+}
+
 .detail:hover {
-    border: 2px solid blue;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
 }

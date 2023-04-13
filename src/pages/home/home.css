@@ -19,20 +19,21 @@
 .embla__prev {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 3%;
 }
 
 .embla__next {
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: 3%;
 }
 
-button {
+.buttons>button {
     font-size: 30px;
     background-color: rgb(255, 255, 255);
     width: 30px;
     height: 30px;
+    border: 1px solid rgb(209, 209, 209);
 
     display: flex;
     justify-content: center;
