@@ -1,0 +1,30 @@
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.topBarLogo {
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.topBarMenuContainer {
+    display: flex;
+    margin-right: 30px;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+.topBarMenu {
+    font-size: 20px;
+    list-style-type: none;
+}
