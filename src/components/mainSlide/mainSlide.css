@@ -1,0 +1,42 @@
+.embla {
+    overflow: hidden;
+    position: relative;
+}
+
+.embla__container {
+    display: flex;
+    height: 80vh;
+}
+
+.embla__slide {
+    flex: 0 0 90%;
+    min-width: 0;
+    margin-right: 20px;
+}
+
+.embla__prev {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+.embla__next {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+}
+
+.buttons>button {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(209, 209, 209);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    padding: 20px;
+}
